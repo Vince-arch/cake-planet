@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import cake1 from "../assets/cake1.jpg"
+import Slider from '../components/Slider'
 const Home = () => {
   return (
     <div > 
@@ -9,6 +10,7 @@ const Home = () => {
         <div name='navbar' className='relative z-10'>
         <Navbar/>   
         </div>
+        <Slider/>
     <div name='' className='flex relative justify-center pt-24'>
         cake Planet    
     </div>
