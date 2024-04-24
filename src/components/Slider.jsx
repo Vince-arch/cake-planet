@@ -1,39 +1,41 @@
-// src/components/Slider.jsx
 import React from 'react';
-import { Autoplay, A11y} from 'swiper/modules';
+import { Autoplay, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/controller';
-import cake1 from '../assets/cake1.jpg'
+import cake1 from '../assets/cake1.jpg';
+import cake2 from '../assets/cake2.jpg';
+import cake3 from '../assets/cake3.jpg';
+import cake4 from '../assets/cake4.jpg';
 
 const Slider = () => {
+  const images = [cake1, cake2, cake3];
 
-    const images = [cake1,]
-
-    return (
-        <section className='bg-white mt-10 mx-4 sm:mx-8 md:mx-20 lg:mx-36 z-10'>
-            <div className='text-center font-extrabold text-2xl my-8'>Your own Slider</div>
-            <Swiper
-                modules={[Autoplay, A11y]}
-                spaceBetween={30} // Adjust the spacing as needed
-                slidesPerView={1} // Show only one slide by default
-                autoplay
-            >
-                {images.map((img, index) => (
-                    <SwiperSlide key={index}>
-                        <a href='/#'>
-                            <img
-                                src={img}
-                                alt={`slide-${index + 1}`}
-                                className='w-fit h-[500px] mx-auto select-none'
-                            />
-                        </a>
-                    </SwiperSlide>
-                ))}
-            </Swiper>
-        </section>
-    );
+  return (
+    <section className="w-full h-full overflow-hidden  inset-0 bg-black opacity-50">
+      <Swiper
+        modules={[Autoplay, A11y]}
+        spaceBetween={30}
+        slidesPerView={1}
+        autoplay={{ delay: 5000 }}
+        direction="horizontal"
+        loop={true}
+      >
+        {images.map((img, index) => (
+          <SwiperSlide key={index}>
+            <a href="/#">
+              <img
+                src={img}
+                alt={`slide-${index + 1}`}
+                className="w-full h-full object-cover"
+              />
+            </a>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </section>
+  );
 };
 
 export default Slider;
