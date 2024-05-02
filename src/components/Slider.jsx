@@ -10,7 +10,7 @@ import cake3 from '../assets/cake3.jpg';
 import cake4 from '../assets/cake4.jpg';
 
 const Slider = () => {
-  const images = [cake1, cake2, cake3];
+  const images = [cake1, cake4, cake3];
 
   return (
     <section className="w-full h-full overflow-hidden  inset-0 bg-black opacity-50">
@@ -24,13 +24,13 @@ const Slider = () => {
       >
         {images.map((img, index) => (
           <SwiperSlide key={index}>
-            <a href="/#">
+            <>
               <img
                 src={img}
                 alt={`slide-${index + 1}`}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fill"
               />
-            </a>
+            </>
           </SwiperSlide>
         ))}
       </Swiper>
