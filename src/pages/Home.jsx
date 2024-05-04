@@ -9,9 +9,6 @@ const Home = () => {
         <div className='absolute h-screen w-screen inset-0 bg-black opacity-50'>
           <Slider/>
         </div>
-        <div name='navbar' className='relative z-10 '>
-        <Navbar/>   
-        </div>
         
     <div name='' className='flex relative justify-center  pt-24'>
         cake Planet    

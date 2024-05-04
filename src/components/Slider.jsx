@@ -13,7 +13,7 @@ const Slider = () => {
   const images = [cake1, cake4, cake3];
 
   return (
-    <section className="w-full h-full overflow-hidden  inset-0 bg-black opacity-50">
+    <section className="w-full h-full  overflow-hidden  inset-0 bg-black opacity-50">
       <Swiper
         modules={[Autoplay, A11y]}
         spaceBetween={30}
