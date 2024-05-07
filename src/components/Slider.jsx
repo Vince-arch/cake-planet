@@ -28,7 +28,7 @@ const Slider = () => {
               <img
                 src={img}
                 alt={`slide-${index + 1}`}
-                className="w-full h-full object-fill"
+                className="w-full lg:h-full h-screen object-fill"
               />
             </>
           </SwiperSlide>
