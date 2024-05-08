@@ -1,1 +1,32 @@
-image,price, content
+[
+    {"id":"1",
+    "image":"/src/assets/menu/image1",
+     "content":"",
+     "price":""
+    },
+    {"id":"2",
+    "image":"src/assets/menu/image2",
+     "content":"",
+     "price":""
+    },
+    {"id":"3",
+    "image":"src/assets/menu/image3",
+     "content":"",
+     "price":""
+    },
+    {"id":"4",
+    "image":"",
+     "content":"",
+     "price":""
+    },
+    {"id":"5",
+    "image":"",
+     "content":"",
+     "price":""
+    },
+    {"id":"6",
+    "image":"",
+     "content":"",
+     "price":""
+    }
+]

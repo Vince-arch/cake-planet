@@ -6,6 +6,7 @@ const Menu = () => {
     <div className=''>
         Menu
         <Cards/>
+        
     </div>
   )
 }
