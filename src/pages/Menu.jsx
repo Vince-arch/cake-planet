@@ -1,9 +1,11 @@
 import React from 'react'
+import Cards from '../components/Cards'
 
 const Menu = () => {
   return (
-    <div className=' text-9xl'>
+    <div className=''>
         Menu
+        <Cards/>
     </div>
   )
 }

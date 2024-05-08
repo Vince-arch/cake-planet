@@ -20,10 +20,10 @@ function App() {
       <div  className='h-screen'>
       <About/>
       </div>
-      <div className='h-screen  bg-blue-500'>
+      <div className='h-auto '>
       <Gallery/>
     </div>
-    <div className='h-screen bg-black'>
+    <div className='h-screen pt-32 '>
       <Menu/>
     </div>
    </div>
