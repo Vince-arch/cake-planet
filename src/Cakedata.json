@@ -1,32 +1,32 @@
 [
     {"id":"1",
-    "image":"/src/assets/menu/image1",
-     "content":"",
-     "price":""
+    "image":"/src/assets/menu/image1.jpg",
+     "content":"Forest cake",
+     "price":"500"
     },
     {"id":"2",
-    "image":"src/assets/menu/image2",
-     "content":"",
-     "price":""
+    "image":"src/assets/menu/image2.jpg",
+     "content":"Birthday cake",
+     "price":"1000"
     },
     {"id":"3",
-    "image":"src/assets/menu/image3",
-     "content":"",
-     "price":""
+    "image":"src/assets/menu/image3.jpg",
+     "content":"Wedding cake",
+     "price":"1500"
     },
     {"id":"4",
-    "image":"",
-     "content":"",
-     "price":""
+    "image":"src/assets/menu/image4.jpg",
+     "content":"Cupcake",
+     "price":"500"
     },
     {"id":"5",
-    "image":"",
-     "content":"",
-     "price":""
+    "image":"src/assets/menu/image5.jpg",
+     "content":"Wedding cake",
+     "price":"2500"
     },
     {"id":"6",
-    "image":"",
-     "content":"",
-     "price":""
+    "image":"src/assets/menu/image6.jpg",
+     "content":"Anniversary cake",
+     "price":"2000"
     }
 ]
