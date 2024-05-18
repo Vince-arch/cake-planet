@@ -3,10 +3,14 @@ import Cards from '../components/Cards'
 
 const Menu = () => {
   return (
-    <div className=''>
+    <div>
+    <div className='flex justify-center text-5xl'>
         Menu
-        <Cards/>
         
+    </div>
+    <div className='flex items-center lg:m-12'>
+    <Cards/>
+    </div>
     </div>
   )
 }

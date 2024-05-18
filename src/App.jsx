@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Gallery from './pages/Gallery';
 import { useState } from 'react';
 import Menu from './pages/Menu';
+import Footer from './components/Footer';
 
 function App() {
  
@@ -23,8 +24,11 @@ function App() {
       <div className='h-auto '>
       <Gallery/>
     </div>
-    <div className='h-screen pt-32 '>
+    <div className='h-auto pt-32 '>
       <Menu/>
+    </div>
+    <div className='h-20 '>
+    <Footer/>
     </div>
    </div>
   )
