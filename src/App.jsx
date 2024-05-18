@@ -21,7 +21,7 @@ function App() {
       <div  className='h-screen'>
       <About/>
       </div>
-      <div className='h-auto '>
+      <div className='h-auto pt-20'>
       <Gallery/>
     </div>
     <div className='h-auto pt-32 '>
