@@ -2,31 +2,31 @@
     {
         "id":"1",
         "name":"item1",
-        "image":"/src/assets/images/1.jpg"
+        "image":"/1.jpg"
     },
     {
         "id":"2",
         "name":"item2",
-        "image":"/src/assets/images/2.jpg"
+        "image":"/2.jpg"
     },
     {
         "id":"3",
         "name":"item3",
-        "image":"/src/assets/images/3.jpg"
+        "image":"/3.jpg"
     },
     {
         "id":"4",
         "name":"item4",
-        "image":"/src/assets/images/4.jpg"
+        "image":"/4.jpg"
     },
     {
         "id":"5",
         "name":"item5",
-        "image":"/src/assets/images/5.jpg"
+        "image":"/5.jpg"
     },
     {
         "id":"6",
         "name":"item6",
-        "image":"/src/assets/images/6.jpg"
+        "image":"/6.jpg"
     }
 ]
