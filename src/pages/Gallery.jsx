@@ -4,7 +4,7 @@ import items from "../Data.json"
 const Gallery = () => {
     //console.log(data)
   return (
-    <div>
+    <div className='pt-20'>
     <div className='flex flex-col items-center text-5xl m-5'>
     Gallery
   </div>
