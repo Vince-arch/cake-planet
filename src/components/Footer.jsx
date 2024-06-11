@@ -2,8 +2,14 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='h-32 sticky bg-black text-white text-3xl pt-5 '>Cake Planet</div>
-  )
+    <div>
+      <footer className="footer footer-center p-4 h-32 bg-base-300 text-base-content">
+          <aside>
+          <p>Copyright © 2024 - All right reserved by Cake Planet</p>
+        </aside>
+      </footer>
+    </div>
+    )
 }
 
 export default Footer
