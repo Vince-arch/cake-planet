@@ -43,9 +43,9 @@ function App() {
         <div id="menu" className='h-auto pt-32'>
           <Menu />
         </div>
-        <div className='h-20'>
+        
           <Footer />
-        </div>
+        
       </div>
     </Router>
   );

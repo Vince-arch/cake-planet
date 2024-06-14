@@ -5,8 +5,8 @@ import Slider from '../components/Slider'
 const Home = () => {
   return (
     <div > 
-    <div name='section1' className=''>
-        <div className='absolute h-screen w-screen inset-0 bg-black opacity-50'>
+    <div name='section1' >
+        <div className='absolute  w-screen inset-0 bg-black opacity-50'>
           <Slider/>
         </div>
         <div className='relative'>
