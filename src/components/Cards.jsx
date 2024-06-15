@@ -6,7 +6,7 @@ const Cards = () => {
   return (
     <div className='flex flex-col lg:flex-row lg:flex-wrap'>
       {data.map(item => (
-        <div name='card-container' className='flex flex-row h-42 w-96 m-4 outline-none rounded-100 bg-base-300 shadow-md hover:bg-base-200 duration-700' key={item.id}>
+        <div name='card-container' className='flex flex-row h-42 w-auto lg:w-96 m-4 outline-none rounded-100 bg-base-300 shadow-md hover:bg-base-200 duration-700' key={item.id}>
           <div name="image" className='rounded-full h-32 w-32 m-1'>
             <img className='rounded-full h-32 w-32 m-1' src={item.image} alt={item.name} />
           </div>
