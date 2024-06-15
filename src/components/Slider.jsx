@@ -10,7 +10,7 @@ import cake3 from '../assets/cake3.jpg';
 import cake4 from '../assets/cake4.jpg';
 
 const Slider = () => {
-  const images = [cake1, cake4, cake3];
+  const images = [cake1, cake2, cake3, cake4];
 
   return (
     <section className="w-full h-full  overflow-hidden  inset-0 bg-black opacity-50">
