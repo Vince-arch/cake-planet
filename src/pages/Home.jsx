@@ -1,25 +1,25 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import cake1 from "../assets/cake1.jpg"
-import Slider from '../components/Slider'
+import React, { Suspense } from 'react';
+import cake1 from "../assets/cake1.jpg"; // Ensure this image is optimized
+const Navbar = React.lazy(() => import('../components/Navbar'));
+const Slider = React.lazy(() => import('../components/Slider'));
+
 const Home = () => {
   return (
-    <div > 
-    <div name='section1' >
-        <div className='absolute  w-screen inset-0 bg-black opacity-50'>
-          <Slider/>
+    <div> 
+      <div name='section1'>
+        <div className='absolute w-screen inset-0 bg-black opacity-50'>
+          <Suspense fallback={<div>Loading...</div>}>
+            <Slider/>
+          </Suspense>
         </div>
-        {/*<div className='relative'>
-          <Navbar/>
-  </div>*/}
-        
-    {/*<div name='' className='flex relative justify-center  pt-24 text-white text-4xl'>
-        Cake Planet    
-  </div>*/}
-    <p className='relative text-white text-3xl font-serif flex justify-center  pt-36 m-5'>Discover the ultimate cake experience! At Cake Planet, <br></br>we craft mouthwatering masterpieces for every celebration. <br></br>Indulge in our heavenly flavors and stunning designs that make every occasion unforgettable.</p>
+        <p className='relative text-white text-3xl font-serif flex justify-center pt-36 m-5'>
+          Discover the ultimate cake experience! At Cake Planet, 
+          <br />we craft mouthwatering masterpieces for every celebration. 
+          <br />Indulge in our heavenly flavors and stunning designs that make every occasion unforgettable.
+        </p>
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default Home
+export default React.memo(Home);
