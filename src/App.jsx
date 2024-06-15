@@ -30,7 +30,7 @@ function App() {
     <Router>
       <Navbar />
       <ScrollToTop />
-      <div className=''>
+      <div className='overflow-x-hidden'>
         <div id="home" className='h-screen'>
           <Home />
         </div>

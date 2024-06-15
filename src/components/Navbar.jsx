@@ -20,7 +20,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={`fixed top-0 w-full z-10 transition-all duration-300 ${scrolled ? 'bg-base-300' : 'bg-transparent'} ${scrolled ? 'shadow-lg' : ''}`}>
+    <div className={`fixed top-0 w-full  z-10 transition-all duration-300 ${scrolled ? 'bg-base-300' : 'bg-transparent'} ${scrolled ? 'shadow-lg' : ''}`}>
       <div className='flex flex-col lg:flex-row lg:gap-56 pt-4 px-4 lg:px-32'>
         <div className='flex flex-col items-center lg:items-start font-bold text-3xl text-black'>
           Cake Planet

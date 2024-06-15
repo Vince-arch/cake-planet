@@ -9,9 +9,9 @@ const Home = () => {
         <div className='absolute  w-screen inset-0 bg-black opacity-50'>
           <Slider/>
         </div>
-        <div className='relative'>
+        {/*<div className='relative'>
           <Navbar/>
-        </div>
+  </div>*/}
         
     {/*<div name='' className='flex relative justify-center  pt-24 text-white text-4xl'>
         Cake Planet    
